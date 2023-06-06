@@ -1,6 +1,11 @@
 .home {
-  padding: 16px;
+  padding: 24px;
   max-width: 800px;
+  margin: 0 auto;
+}
+
+.home h1 {
+  font-size: 38px;
 }
 
 .home h2 {
@@ -8,6 +13,7 @@
   background-clip: text;
   background-image: linear-gradient(90deg, #f0e400 0%, #f30000 60%);
   color: transparent;
+  font-size: 28px;
 }
 
 .home h3 {
@@ -15,7 +21,12 @@
   margin-bottom: 32px;
 }
 
+.home_greeting {
+  color: #9c9da0;
+}
+
 .description {
+  color: #9c9da0;
   margin: 16px 0 48px;
 }
 

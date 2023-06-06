@@ -1,11 +1,18 @@
 .app {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
 }
 
 .actual_page {
   display: flex;
   flex-direction: column;
+  width: 100%;
   min-height: 100vh;
   min-height: 100dvh;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    grid-template-columns: none;
+  }
 }

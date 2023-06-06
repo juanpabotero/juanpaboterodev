@@ -8,7 +8,6 @@ export function Project({
   projectLink,
   title,
 }) {
-  console.log(description);
   return (
     <article className="project">
       <img src={`src/assets/images/${image}`} alt={altImg} />

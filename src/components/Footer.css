@@ -2,7 +2,7 @@
   display: grid;
   font-size: 14px;
   gap: 4px;
-  margin-top: auto;
+  margin: auto auto 0;
   max-width: 800px;
   padding: 16px;
   place-content: center;

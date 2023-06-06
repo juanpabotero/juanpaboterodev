@@ -2,7 +2,6 @@
   border-bottom: 1px solid #606266;
   display: grid;
   gap: 16px;
-  grid-template-columns: 208px 1fr;
   max-width: 800px;
   padding-bottom: 16px;
 }
@@ -15,7 +14,7 @@
   font-size: 20px;
 }
 
-.project_info h4{
+.project_info h4 {
   margin-bottom: 4px;
 }
 
@@ -43,3 +42,15 @@
   border: 1px solid #f3000093;
 }
 
+@media (min-width: 768px) {
+  .project {
+    grid-template-columns: 208px 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .project_options {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
