@@ -1,0 +1,25 @@
+.home {
+  padding: 16px;
+  max-width: 800px;
+}
+
+.home h2 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #f0e400 0%, #f30000 60%);
+  color: transparent;
+}
+
+.home h3 {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.description {
+  margin: 16px 0 48px;
+}
+
+.projects {
+  display: grid;
+  gap: 32px;
+}

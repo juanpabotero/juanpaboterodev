@@ -1,0 +1,23 @@
+.footer {
+  display: grid;
+  font-size: 14px;
+  gap: 4px;
+  margin-top: auto;
+  max-width: 800px;
+  padding: 16px;
+  place-content: center;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+.footer a {
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.footer p:nth-child(2) {
+  color: #9c9da0;
+}

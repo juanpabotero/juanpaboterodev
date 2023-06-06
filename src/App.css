@@ -1,0 +1,11 @@
+.app {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.actual_page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}

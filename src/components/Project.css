@@ -1,0 +1,45 @@
+.project {
+  border-bottom: 1px solid #606266;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 208px 1fr;
+  max-width: 800px;
+  padding-bottom: 16px;
+}
+
+.project img {
+  border-radius: 8px;
+}
+
+.project h4 {
+  font-size: 20px;
+}
+
+.project_info h4{
+  margin-bottom: 4px;
+}
+
+.project_info p {
+  color: #9c9da0;
+  margin-bottom: 16px;
+}
+
+.project_options,
+.project_tools,
+.project_links {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.project_links a {
+  border-radius: 4px;
+  border: 1px solid #f0e4009c;
+  padding: 4px 8px;
+}
+
+.project a + a {
+  border: 1px solid #f3000093;
+}
+
