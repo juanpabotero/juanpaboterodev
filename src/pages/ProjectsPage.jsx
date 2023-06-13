@@ -3,7 +3,7 @@ import './ProjectsPage.css';
 
 export function ProjectsPage() {
   return (
-    <div>
+    <div className='projects-page'>
       <h2>Proyectos</h2>
       <Projects />
     </div>

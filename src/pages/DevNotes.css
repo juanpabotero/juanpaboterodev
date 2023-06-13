@@ -1,4 +1,4 @@
-h2 {
+.notes h2 {
   -webkit-background-clip: text;
   background-clip: text;
   background-image: linear-gradient(90deg, #f0e400 0%, #f30000 90%);
