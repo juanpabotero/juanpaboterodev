@@ -12,7 +12,7 @@ export const menu = [
   {
     id: window.crypto.randomUUID(),
     path: '/notas',
-    title: 'Notas',
+    title: 'Notas Dev',
   },
   {
     id: window.crypto.randomUUID(),

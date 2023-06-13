@@ -1,3 +1,21 @@
+.sidebar-wrapper {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.sidebar-wrapper.active {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+}
+
+.sidebar-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+}
+
 .sidebar {
   background-color: #242933;
   display: flex;
@@ -51,8 +69,12 @@
   margin-top: auto;
 }
 
-@media (max-width: 1024px) {
-  .sidebar {
+@media (min-width: 1024px) {
+  .sidebar-wrapper {
+    display: grid;
+    position: relative;
+  }
+  .sidebar-backdrop {
     display: none;
   }
 }

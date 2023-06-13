@@ -1,0 +1,15 @@
+.note {
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  font-size: 20px;
+  gap: 16px;
+  justify-content: center;
+  padding: 18px 12px;
+  width: 280px;
+}
+
+.note img {
+  width: 32px;
+}

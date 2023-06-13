@@ -1,5 +1,5 @@
 .home {
-  padding: 24px;
+  padding: 24px 32px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -26,11 +26,6 @@
 }
 
 .description {
-  color: #9c9da0;
+  /* color: #9c9da0; */
   margin: 16px 0 48px;
-}
-
-.projects {
-  display: grid;
-  gap: 32px;
 }

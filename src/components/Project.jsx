@@ -38,8 +38,12 @@ export function Project({
             </svg>
           </div>
           <div className="project_links">
-            <a href={codeLink}>Ver código</a>
-            <a href={projectLink}>Ver project</a>
+            <a href={codeLink} target="_blank" rel="noopener noreferrer">
+              Ver código
+            </a>
+            <a href={projectLink} target="_blank" rel="noopener noreferrer">
+              Ver projecto
+            </a>
           </div>
         </div>
       </div>
